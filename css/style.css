@@ -29,7 +29,13 @@
 @import url(nice-select.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
-
+head,body
+{
+ width:100%;
+ height:100%;
+ padding:0px;
+ overflow-x:hidden;
+}
 * {
      box-sizing: border-box !important;
 }
